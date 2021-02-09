@@ -1,0 +1,9 @@
+[dev]
+execution.mode = local
+input.base.dir =
+output.base.dir=
+
+[prod]
+execution.mode = yarn-client
+input.base.dir = s3://
+output.base.dir= s3://
